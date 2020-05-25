@@ -1,0 +1,746 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/*nav
+======================================================*/
+.about {
+ height: 71px;
+ width: 100%;
+ background:#0a0a0a;
+
+} 
+.header-about {
+ width: 100%;
+ position: absolute;
+ z-index: 0;
+ top:5px;
+ right: 100px;
+} 
+
+a {
+ color: #ffffff;
+ font-size: 14; opacity: 0.7;color: aliceblue;
+ font-family: 'Open sans', sans-serif;
+}
+
+li {
+ color: black;
+ display: inline-block;
+ position: relative;
+ left: 200px;
+ top:10px;
+ z-index: 1;
+ padding: 20px;
+}
+
+/*HEADER
+=====================================*/
+header {
+ background: url("../img/imgheader.png");
+ background-size: contain;
+ background-position: top center;
+ width: 100%;
+ position: relative;
+}
+header:before {
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2); 
+  z-index: 1;
+}
+
+.logo {
+ width: 175;
+ height: 65px;
+ background: url("../img/icon/logo.png") no-repeat;
+}
+
+.title {
+ margin: 5%;
+ display: inline-block;
+ font-size: 0;
+ width: 515px;
+ position: relative;
+}
+
+ h1 {
+ font-size: 36px;
+ font-family: 'Raleway' sans-serif; 
+ font-weight: 400;
+ color: #ffffff;
+ padding: 80px 0 50px 0;
+}
+
+ h1::after {
+ display: block;
+ width: 74px;
+ content:'';
+ border: 1px solid #FFFFFF;
+ position: absolute;
+ bottom: 155px;
+}
+
+ h4 {
+ font-size: 16px; opacity: 0.8;
+ font-family: 'Open sans', sans-serif;
+ color: #FFFFFF;
+ padding-bottom: 30px;
+}
+
+ button {
+ width: 135px;
+ height: 42px;
+ text-align: center;
+ background: transparent;
+ font-size: 13;
+ color: #ffffff;
+}
+
+.info {
+ display: inline-block;
+ width: 360px;  
+ height: 364px;
+ border-radius: 5%;
+ position: absolute;
+ z-index: 3;
+ top: 150px;
+ right: 120px; 
+ background: url("../img/icon/card.svg");
+}
+
+.media {
+
+ width: 100%;
+ padding: 23px 50px;
+ }
+
+ h3 {
+ font-size: 20;
+ font-family: 'Open sans', sans-serif;
+ font-weight: bold;
+ padding-bottom: 20px;
+ }
+
+ h5 {
+ font-size: 14px;
+ font-family: 'Open sans', sans-serif;
+ width: 360px;
+ margin: 0;
+ color: #86878B;
+ }
+/*SOCIAL
+=======================================*/
+.social-media {
+ width: 100%;
+ position: relative;
+ margin: 0 auto;
+ z-index: 2; 
+ background: aqua;
+}
+
+.social {
+ display: inline-block;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ 
+ z-index: 1;
+}
+ul {
+ display: inline-block;
+ position: absolute;
+ padding: 0 100px 0 100px;
+right:300px;
+ bottom: 80px;
+ z-index: 0;
+
+ }
+ 
+.icon--facebook {
+ background: url("../img/icon/facebook1.png") no-repeat;
+ background-size: contain;
+ }
+
+.icon--twitter {
+ background: url("../img/icon/twit.png") no-repeat;
+ background-size: contain;
+ }
+ 
+.icon--google {
+ background: url("../img/icon/google1.png") no-repeat;
+ background-size: contain;
+ }
+
+.icon--pinterest {
+ background: url("../img/icon/pin.png") no-repeat;
+ background-size: contain;
+ }
+ 
+.icon--insagram {
+ background: url("../img/icon/insta.png") no-repeat;
+ background-size: contain;
+ }
+ 
+.icon--stum {
+ background: url("../img/icon/stum1.png") no-repeat;
+ background-size: contain;
+ }
+ 
+.icon--rss {
+ background:url("../img/icon/rss1.png") no-repeat;
+ background-size: contain;
+ }
+
+ /*SECTION TABS
+ ======================================*/
+ .tabs {
+ width: 100%;
+ padding-top: 100px;
+ position: relative;
+ background: #F5F5F5;
+ }
+  /*TAB BLOCK
+ ======================================*/
+ .column {
+ display: block;
+ width: 112px;
+ height: 112px;
+ background: orchid;
+ margin: 1px 0 0 140px;
+ padding-top: 20px;
+ background: #333333;
+ position: relative;
+ }
+
+.first--tab {
+ width: 112px;
+ height: 112px;
+ background:#333333 ;
+}
+
+.second--tab {
+ width: 112px;
+ height: 112px;
+ background: #333333;
+}
+
+/*BLOCK CHANGE COLOR
+================================================*/
+.third--tab:hover {
+ background: #FF8B38;
+}
+
+.second--tab:hover {
+ background: #FF8B38;
+}
+
+.first--tab:hover {
+ background: #FF8B38;
+}
+
+.third--tab:hover {
+ background: #FF8B38;
+}
+
+span {
+ font-size: 15;
+ font-family: 'Open sans',sans-serif;
+ font-weight: bold;
+ color: #FFFFFF;
+ position: absolute;
+ top:45px;
+ right: 35px;
+}
+/*TEXT
+===================================*/
+.text {
+ font-size: 20px;
+ font-family: 'Open sans', sans-serif;
+ font-weight: bold;
+ color: #000000;
+}
+
+.tab--text {
+ width: 476px;
+ height: 419px;
+ position: absolute;
+ top:100px;
+ left: 350px;
+}
+
+.txt {
+ font-size: 14px;
+ font-family: 'Open sans', sans-serif;
+ color: #86878B;
+ padding-bottom: 30px;
+ }
+
+ .tab-btn {
+ width: 121px;
+ height: 46px;
+ font-size: 15px;
+ background:#FF8B38;
+ }
+
+/*PICTER CITY
+======================================*/
+.city {
+ background: url("../img/city.svg");
+ width: 323px;
+ height: 253px;
+ position: absolute;
+ right: 200px;
+ top: 80px;
+ bottom: 60px;
+}
+/* SECTION AWESOME
+=======================================*/
+.awesome {
+ text-align: center;
+ padding-top: 107px;
+}
+
+.awa {
+ font-family: 'Raleway', sans-serif;
+ font-size: 36px;
+ font-weight: 400;
+}
+
+.awa:after {
+ display: block;
+ width: 67px;
+ content:'';
+ border: 1px solid #FF8B38;
+ background: #FF8B38;
+ margin: 40px 740px 40px;
+}
+
+.awesometext{
+ font-family: 'Raleway', sans-serif;
+ font-size: 14px;
+ color: grey; opacity: 0.7;
+}
+
+.oval {
+ padding: 80px 0 107px;
+}
+  
+.block {
+ display: inline-block;
+ text-align: center;
+ width: 380px;
+ margin: 0 16px;
+}
+
+.circle {
+ width: 70px;
+ height: 70px;
+ color: orange;
+ border: 1px solid orange;
+ border-radius: 50%;
+ margin: 0 auto;
+}
+
+.circlehead {
+ font-size: 20px;
+ font-weight: 400px;
+ color: #000000;
+ font-family: 'Raleway', sans-serif;
+ margin: 29px 0;
+}
+
+.blocktext {
+ font-family: 'Raleway', sans-serif;
+ font-size: 15px;
+ color: gray; 
+ text-align: center;
+}
+
+.icon--bulb {
+ background: url("../img/icon/bulb.jpg") no-repeat center;
+}
+
+.icon--key {
+ background: url("../img/icon/keyboard.jpg") no-repeat center;
+}
+
+.icon--light {
+ background: url("../img/icon/lighting.jpg") no-repeat center;
+}
+/* Section Option
+======================================================*/
+.option {
+ text-align: center;
+ padding-top: 107px;
+ background: #F5F5F5;
+ position: relative;
+}
+
+.awa {
+ font-family: 'Raleway', sans-serif;
+ font-size: 36px;
+ font-weight: 400;
+}
+
+.awa:after {
+ display: block;
+ width: 67px;
+ content:'';
+ border: 1px solid #FF8B38;
+ background: #FF8B38;
+ margin: 40px 740px 40px;
+}
+
+.awesometexthead {
+ font-family: 'Raleway', sans-serif;
+ font-size: 14px;
+ text-align: center;
+ color: grey; opacity: 0.7;
+ padding-bottom: 80px;
+
+}
+/*BLOCK
+================================*/
+.basic {
+ display: inline-block;
+ width: 343px;
+ background:#333333;
+}
+
+.top--left {
+ position: absolute;
+ left: 140px;
+ top: 346px
+}
+.top--right {
+ position: absolute;
+ right: 140px;
+ top:346px;
+}
+.proff {
+ display: inline-block;
+ width: 343px;
+}
+.enter {
+ display: inline-block;
+ width: 343px;
+ 
+}
+.text-info {
+ font-size: 14px;
+ font-family: 'Open sans', sans-serif;
+ color: #86878B;
+ padding: 14px 85px;
+ border: 1px solid #F5F5F5; 
+ background: #ffffff;
+}
+.text-popular {
+ font-size: 14px;
+ font-family: 'Open sans',sans-serif;
+ font-weight: bold;
+ color: #ffffff;
+ background: #FF8B38; 
+ padding: 14px 85px;
+}
+
+.text-number {
+ font-size: 65px;
+ font-family: 'Raleway',sans-serif;
+ font-weight: bold;
+ color: #ffffff;
+ padding: 30px 134px;
+ border: 1px solid #F5F5F5;
+}
+
+.text-block {
+ font-size: 20px;
+ font-family: 'Open sans', sans-serif;
+ font-weight: bold;
+ color: #ffffff;
+ padding: 21px 110px 21px 110px;
+}
+
+.text-end {
+ font-size: 14px;
+ font-family: 'Open sans', sans-serif;
+ padding: 17px 132px;
+ color: #ffffff; opacity: 0.5;
+}
+
+.center-text--end {
+ font-size: 14px;
+ font-family: 'Open sans', sans-serif;
+ padding: 17px 100px;
+ color: #ffffff; opacity: 0.5;
+ border: 1px solid #ffffff;
+}
+.line {
+ height: 5px;
+ background: #FF8B38;
+}
+/*Section review
+=========================================*/
+.review {
+ text-align: center;
+ height: 590px;
+ padding-top: 107px;
+ position: relative;
+ z-index: 0;
+}
+.awa {
+ font-family: 'Raleway', sans-serif;
+ font-size: 36px;
+}
+
+.awa:after {
+ display: block;
+ width: 67px;
+ content:'';
+ border: 1px solid #FF8B38;
+ background: #FF8B38;
+ margin: 40px 740px 40px;
+}
+
+.awesometexthead {
+ font-family: 'Raleway', sans-serif;
+ font-size: 14px;
+ text-align: center;
+ color: grey; opacity: 0.7;
+ padding-bottom: 80px;
+}
+
+.jeremy {
+ display: inline-block;
+ width: 273px;
+ position: absolute;
+ left: 140px;
+ top: 346px
+}
+
+.john {
+ display: inline-block;
+ width: 273px;
+}
+
+.susan {
+ display: inline-block;
+ width: 273px;
+ position: absolute;
+ right: 140px;
+ top:346px;
+}
+
+.name {
+ font-size: 14px;
+ font-family: 'Open sans', sans-serif;
+ font-weight: normal;
+ background: url("../img/icon/avatar.svg") no-repeat;
+ background-size:  contain;
+}
+
+.style-btn {
+  width: 135px;
+  height: 42px;
+  text-align: center;
+  background: transparent;
+  font-size: 13;
+  color:#ffffff;
+  position: absolute;
+  z-index: 3;
+  
+ }
+/*Section style
+============================================*/
+.style {
+ width: 100%;
+ height: 321px;
+ text-align: center;
+ padding-top: 107px;
+ position: relative;
+ background: url("../img/picture.png");
+
+}
+
+.style:before {
+ position: absolute;
+ content: '';
+ top:0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: rgba(0,0,0,0.4); 
+ z-index: 1;
+}
+
+.style-text {
+ font-size: 36px;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 400;
+ color: #FFFFFF;
+ position: absolute;
+ right: 464px;
+ top: 76px;
+ z-index: 2 ;
+}
+
+.style-text:after {
+ content: '';
+ width: 74px;
+ border: 1px solid #ffffff;
+ text-align: center;
+ position: absolute;
+ top: 60px;
+ left: 150px;
+}
+
+.main-text {
+ font-size: 16px;
+ font-family: 'Raleway', sans-serif;
+ color: #FFFFFF;opacity: 0.8;
+ padding: 50px 0 50px 160px;
+
+}
+/*Section contact
+==========================================*/
+.contact {
+ padding-top: 60px;
+ width: 100%;
+ height: 613px;
+ text-align: center;
+ position: relative;
+
+}
+
+.awa {
+ font-family: 'Raleway', sans-serif;
+ font-size: 36px;
+ font-weight: 400;
+}
+
+.awa:after {
+ display: block;
+ width: 67px;
+ content:'';
+ border: 1px solid #FF8B38;
+ background: #FF8B38;
+ margin: 40px 740px 40px;
+}
+
+.awesometexthead {
+ font-family: 'Raleway', sans-serif;
+ font-size: 14px;
+ text-align: center;
+ color: grey; opacity: 0.7;
+ padding-bottom: 80px;
+}
+
+.send {
+
+ width: 148px;
+ height: 46px;
+ font-size: 15px;
+ background:#FF8B38;
+ position: absolute;
+ bottom: 60px;
+ left: 700px;
+}
+
+.adress {
+display: block;
+ width: 572px;
+ height: 100px;
+ position: absolute;
+ top:300px;
+ left:80px;  
+}
+
+.message {
+ display: inline-block;
+ width: 300px;
+ height: 200px;
+ position: absolute;
+ top: 300px;
+ right: 180px;
+}
+
+
+/*FOOTER
+==========================*/
+footer {
+ width: 100%;
+ margin: 0 auto;
+ text-align: center;
+ background:#0a0a0a;
+ }
+ 
+.icon {
+ width: 100%;
+ position: relative;
+ margin: 0 auto;
+ z-index: 2;  
+ }
+ 
+ .end {
+ margin: 0 auto;
+ width: 100%;
+ position: absolute;
+ z-index: 0;
+ right: 0;
+ }
+ 
+ .soc {
+ display: inline-block;
+ width: 31px;
+ position: relative;
+ left:40px;
+ top: 70px;
+ z-index: 1;
+ margin: 20px 5px 0 5px;
+ }
+ 
+ .icon--facebook {
+ background: url("../img/icon_footer/facebook.png") no-repeat;
+ background-size: contain;
+ 
+ }
+ .icon--twitter {
+ background: url("../img/icon_footer/twitter.png") no-repeat;
+ background-size:  contain; 
+ }
+ 
+ .icon--google {
+ background: url("../img/icon_footer/google.png") no-repeat;
+ background-size: contain;
+ }
+ 
+ .icon--pinterset {
+ background: url("../img/icon_footer/pinterest.png") no-repeat;
+ background-size:  contain;
+ }
+ 
+ .icon--insta {
+ background: url("../img/icon_footer/instagram.png") no-repeat;
+ background-size:  contain;
+ }
+ 
+ .icon--stum {
+ background: url("../img/icon_footer/stumpleuon.png") no-repeat;
+ background-size:  contain;
+ }
+ 
+ .icon--rss {
+ background:url("../img/icon_footer/rss.png") no-repeat;
+ background-size:  contain;
+ }
+ 
+ .footer-text {
+ font-size: 11px; opacity: 0.5;
+ color: #ffffff;
+ padding-top: 60px
+ }
